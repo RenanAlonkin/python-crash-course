@@ -55,3 +55,23 @@ del guests[0]
 del guests[0]
 
 print(guests)
+
+print('--------------------------------')
+
+# 3.9 Using len()
+
+guests = ['Andrey Aguiar', 'Fernando', 'Karolyns']
+# Inserting in the first position
+guests.insert(0, 'Amanda')
+# Inserting in the middle
+guests.insert(3, 'Jeferson')
+# Appending to the end of the list
+guests.append('Gabes')
+
+invitation_message = 'Hello {}, you are invited to my house to eat some burgers'
+
+for guest in guests:
+    print(invitation_message.format(guest))
+
+print('Total amount of invited people is {}'.format(len(guests)))
+print('-----------------------')

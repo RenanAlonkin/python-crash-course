@@ -7,7 +7,8 @@ This repository is where I'm going to save my exercises and projects for the boo
 ## Progress: 
 - Chapter one: It doesn't have code, so....
 - Chapter two: ✅
-- Chapter three: in progress
+- Chapter three: ✅
+- Chapter four: in progress
 
 ## Contributing: 
 

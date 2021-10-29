@@ -5,7 +5,7 @@
 portuguese = 'Português'
 spanish = 'Español'
 print('Is portuguese the same thing as spanish?, I predict it False')
-print(portuguese.lower == spanish.lower)
+print(portuguese.lower() == spanish.lower())
 
 pedros_age = 18
 legal_age = 18
@@ -15,12 +15,12 @@ print(pedros_age == legal_age)
 my_favorite_color = 'orange'
 marias_guess = 'blue'
 print('Did Maria guessed my favorite color right? I predict it False')
-print(my_favorite_color.lower == marias_guess.lower)
+print(my_favorite_color.lower() == marias_guess.lower())
 
 maria_nickname_in_russian = 'Masha'
 marias_nickname = 'Masha'
 print('is Masha a nickname for Maria? I predict it True')
-print(maria_nickname_in_russian.lower == marias_nickname.lower)
+print(maria_nickname_in_russian.lower() == marias_nickname.lower())
 
 
 answer_to_the_universe_and_everything = 'potato'
@@ -41,7 +41,7 @@ print(moms_answer == my_back_hurts)
 my_eyes_color = "Brown"
 my_hairs_color = "Brown"
 print('Do I have the same color of eyes as my hair? I predict it True')
-print(my_eyes_color.lower == my_hairs_color.lower)
+print(my_eyes_color.lower() == my_hairs_color.lower())
 
 do_i_deserve_a_raise = True
 will_i_get_a_rase = False

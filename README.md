@@ -8,7 +8,13 @@ This repository is where I'm going to save my exercises and projects for the boo
 - Chapter one: It doesn't have code, so....
 - Chapter two: ✅
 - Chapter three: ✅
-- Chapter four: in progress
+- Chapter four: ✅
+- Chapter five: ✅
+- Chapter six: ✅
+
+
+## About the exercises: 
+During the development of this repository, I decided to only code the important or the challenging exercises. During the sixth chapter I've found myself unmotivated, so, to keep uploading to this repository, I've decided to do only the ones that are not repetitive, boring or not challenging. 
 
 ## Contributing: 
 

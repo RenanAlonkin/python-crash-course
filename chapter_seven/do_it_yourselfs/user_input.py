@@ -15,7 +15,7 @@ print("-----------------")
 
 print("Welcome, Welcome, thanks for choosing Renan's restaurant.\n")
 amount_of_people = int(input("So, how many are you? "))
-if(amount_of_people >= 8):
+if amount_of_people >= 8:
     print("Hmmmmm, I'm sorry, we only have one table that big in the house...")
     print("Do you mind waiting?")
 else:
@@ -28,7 +28,7 @@ print("-----------------")
 
 print("Let's see, hmmmm, Let's figure it out if that number is multiple of 10.\n")
 number = int(input("Enter a number: "))
-if(number % 10 == 0):
+if number % 10 == 0:
     print("Ohhh, interesting, that number is multiple of 10.")
 else:
     print("Hmmm, that is not multiple of 10.")

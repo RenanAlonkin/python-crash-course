@@ -1,26 +1,26 @@
 # Sorting elements
-cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars = ["bmw", "audi", "toyota", "subaru"]
 cars.sort()
 print(cars)
 
-print('--------------------')
+print("--------------------")
 
 # Sorting in reverse
-cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars = ["bmw", "audi", "toyota", "subaru"]
 cars.sort(reverse=True)
 print(cars)
 
-print('---------------------')
+print("---------------------")
 
 # Sorting elements but keeping the original form
-cars = ['bmw', 'audi', 'toyota', 'subaru']
-print('Here is the original list:\n{}'.format(cars))
+cars = ["bmw", "audi", "toyota", "subaru"]
+print("Here is the original list:\n{}".format(cars))
 
-print('\nHere is the original list:\n{}'.format(sorted(cars)))
+print("\nHere is the original list:\n{}".format(sorted(cars)))
 
-print('\nHere is the original list:\n{}'.format(cars))
+print("\nHere is the original list:\n{}".format(cars))
 
-print('---------------------')
+print("---------------------")
 
 # Showing a list in the reverse order
 print(cars)
@@ -29,10 +29,10 @@ print(cars)
 cars.reverse()
 print(cars)
 
-print('---------------------')
+print("---------------------")
 
 # Discovering a list length
-cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars = ["bmw", "audi", "toyota", "subaru"]
 length = len(cars)
 
-print('---------------------')
+print("---------------------")

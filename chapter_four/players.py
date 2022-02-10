@@ -1,4 +1,4 @@
-players = ['charles', 'martina', 'michael', 'florence', 'eli']
+players = ["charles", "martina", "michael", "florence", "eli"]
 # Will print the first 3
 print(players[0:3])
 
@@ -18,4 +18,3 @@ print(players[-2:])
 print("Here are the first three players of my team:")
 for player in players[:3]:
     print(player.title())
-

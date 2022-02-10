@@ -1,11 +1,11 @@
-my_foods = ['pizza', 'falafel', 'carrot cake']
+my_foods = ["pizza", "falafel", "carrot cake"]
 friend_foods = my_foods[:]
 
-my_foods.append('cannoli')
+my_foods.append("cannoli")
 print("My favorite foods are:")
 print(my_foods)
 
-friend_foods.append('ice cream')
+friend_foods.append("ice cream")
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
 
@@ -13,8 +13,8 @@ print(friend_foods)
 # in the memory
 other_foods = my_foods
 
-other_foods.append('spagetti')
-my_foods.append('caesar salad')
+other_foods.append("spagetti")
+my_foods.append("caesar salad")
 
 print("Let's see if other foods is equal to my foods:")
 print(other_foods)

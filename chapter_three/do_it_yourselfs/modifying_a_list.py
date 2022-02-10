@@ -1,42 +1,50 @@
-# 3.4 Guest list 
-guests = ['Andrey Aguiar', 'Fernando', 'Karolyns']
+# 3.4 Guest list
+guests = ["Andrey Aguiar", "Fernando", "Karolyns"]
 
-message = "I would invite {} and {} to {}'s house, " \
-    "because they would freakout with his hamburgers" \
-        .format(guests[0], guests[2], guests[1])
+message = (
+    "I would invite {} and {} to {}'s house, "
+    "because they would freakout with his hamburgers".format(
+        guests[0], guests[2], guests[1]
+    )
+)
 
-invitation_message = "Hello {}, {}, {}, you are all invited "\
-    "to eat some burgers hahahah."
+invitation_message = (
+    "Hello {}, {}, {}, you are all invited " "to eat some burgers hahahah."
+)
 
 print(message)
-print('-----------------------')
+print("-----------------------")
 
 print(invitation_message.format(guests[0], guests[1], guests[2]))
-print('-----------------------')
+print("-----------------------")
 
 # 3.5 Modifying the guest list
-cant_go = 'Karolyns'
-new_person = 'Lucas'
-print("{} unfortunitely can't go :/, but I'm going to invite {}".format(cant_go, new_person))
+cant_go = "Karolyns"
+new_person = "Lucas"
+print(
+    "{} unfortunitely can't go :/, but I'm going to invite {}".format(
+        cant_go, new_person
+    )
+)
 guests[2] = new_person
 
 print(invitation_message.format(guests[0], guests[1], guests[2]))
-print('-----------------------')
+print("-----------------------")
 
 # 3.6 New guests
 # Inserting in the first position
-guests.insert(0, 'Amanda')
+guests.insert(0, "Amanda")
 # Inserting in the middle
-guests.insert(3, 'Jeferson')
+guests.insert(3, "Jeferson")
 # Appending to the end of the list
-guests.append('Gabes')
+guests.append("Gabes")
 
-invitation_message = 'Hello {}, you are invited to my house to eat some burgers'
+invitation_message = "Hello {}, you are invited to my house to eat some burgers"
 
 for guest in guests:
     print(invitation_message.format(guest))
 
-print('-----------------------')
+print("-----------------------")
 
 # 3.7 Reducing the list of guests
 excuse_message = "Unfortunitely we can't have that many people, corona, you know...."
@@ -46,7 +54,7 @@ while len(guests) > 2:
     uninvited_guest = guests.pop()
     print("Hey {}, unfortunitely I will need to reschedule!".format(uninvited_guest))
 
-print('Lets check who are still here in the list...')
+print("Lets check who are still here in the list...")
 for guest in guests:
     print(invitation_message.format(guest))
 
@@ -56,22 +64,22 @@ del guests[0]
 
 print(guests)
 
-print('--------------------------------')
+print("--------------------------------")
 
 # 3.9 Using len()
 
-guests = ['Andrey Aguiar', 'Fernando', 'Karolyns']
+guests = ["Andrey Aguiar", "Fernando", "Karolyns"]
 # Inserting in the first position
-guests.insert(0, 'Amanda')
+guests.insert(0, "Amanda")
 # Inserting in the middle
-guests.insert(3, 'Jeferson')
+guests.insert(3, "Jeferson")
 # Appending to the end of the list
-guests.append('Gabes')
+guests.append("Gabes")
 
-invitation_message = 'Hello {}, you are invited to my house to eat some burgers'
+invitation_message = "Hello {}, you are invited to my house to eat some burgers"
 
 for guest in guests:
     print(invitation_message.format(guest))
 
-print('Total amount of invited people is {}'.format(len(guests)))
-print('-----------------------')
+print("Total amount of invited people is {}".format(len(guests)))
+print("-----------------------")

@@ -4,7 +4,7 @@ name = "ada wong"
 print(name.title())
 # Makes it all upper case
 print(name.upper())
-#Makes it all lower case
+# Makes it all lower case
 print(name.lower())
 
 # Combining or concating strings
@@ -31,5 +31,3 @@ favorite_language = " python "
 print(favorite_language.lstrip())
 print(favorite_language.rstrip())
 print(favorite_language.strip())
-
-

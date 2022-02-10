@@ -1,5 +1,5 @@
 # Lists are created in python by using the []
-bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+bicycles = ["trek", "cannondale", "redline", "specialized"]
 print(bicycles)
 
 # Accessing individual elements of a list

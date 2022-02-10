@@ -2,9 +2,9 @@
 
 tasks = []
 
-tasks.append('1 - cleaning my room')
-tasks.insert(1, '3 - buying a new ___')
-tasks.append('2 - study python')
+tasks.append("1 - cleaning my room")
+tasks.insert(1, "3 - buying a new ___")
+tasks.append("2 - study python")
 
 print(tasks)
 
@@ -12,10 +12,10 @@ print(tasks)
 tasks.sort()
 print(tasks)
 
-# Oh no, the last task has a problem, we need to 
+# Oh no, the last task has a problem, we need to
 # Overwrite it
 
-tasks[-1] = '3 - buying a new notebook'
+tasks[-1] = "3 - buying a new notebook"
 
 # Now our list is okay, let's check how many tasks do we have
 len(tasks)

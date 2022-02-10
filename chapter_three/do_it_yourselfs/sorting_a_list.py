@@ -1,7 +1,7 @@
 # 3.8 Discovering the world
 
 # Store the elements in a list
-places_i_want_to_visit = ['Belarus', 'Uruguay', 'Russia', 'South Korea', 'Canada']
+places_i_want_to_visit = ["Belarus", "Uruguay", "Russia", "South Korea", "Canada"]
 
 # Original order
 print(places_i_want_to_visit)
@@ -27,4 +27,3 @@ print(places_i_want_to_visit)
 # Sorting it backwards
 places_i_want_to_visit.sort(reverse=True)
 print(places_i_want_to_visit)
-

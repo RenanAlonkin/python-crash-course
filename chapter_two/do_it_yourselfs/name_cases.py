@@ -22,7 +22,7 @@ full_citation = citation_message + citation_name
 print(full_citation)
 
 # 2.7 Removing blank characters from names
-raw_name = ' Claudia '
+raw_name = " Claudia "
 raw_text = "The complete string in this text is '{}'".format(raw_name)
 print(raw_text)
 clean_name = raw_name.split()[0]

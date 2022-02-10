@@ -1,9 +1,9 @@
 # 4.1 - write down the pizzas you like:
-pizzas = ['brocolis with catupiri', 'dried tomato', '4 cheeses']
+pizzas = ["brocolis with catupiri", "dried tomato", "4 cheeses"]
 
 message = "I like {} pizza.\n"
-for pizza in pizzas: 
-    # Use the phrase I like 
+for pizza in pizzas:
+    # Use the phrase I like
     print(message.format(pizza.title()))
 
 # Write a message after the for talking about how you like pizza
